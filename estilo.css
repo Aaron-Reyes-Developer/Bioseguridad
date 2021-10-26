@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+}
+body{
+    background-color: #fff;
+}
+/* contenedor total de al info */
+.contenedor{
+    width: 100%;
+    
+}
+
+/* nadvar */
+.contenedor_left{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    z-index: 2;
+    
+}
+.contenedor_left a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: 0.2s ease-in-out all;
+}
+.contenedor_left a:hover{
+    color: rgb(194, 194, 194);    
+}
+
+
+
+/*  Imagen principal*/
+.conetenedor_img_principal{
+    width: 100%;
+    height: 500px;
+    background: #1f4037; 
+    background: -webkit-linear-gradient(to right, hsla(152, 77%, 77%, 0.404), #1f4037);  
+    background: linear-gradient(to right, hsla(152, 77%, 77%, 0.404), #1f4037), url("https://images.pexels.com/photos/3992933/pexels-photo-3992933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); 
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+/* contenedor informacion */
+.contenedor .contenedor_grid{
+    width: 90%;
+    padding: 30px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+
+/* contenedor imagen */
+.contenedor_grid .contenedor_img_uno{
+    width: 90%;
+    height: 300px;
+    padding-top: 100px;
+}
+/* estilo imagen */
+.contenedor_img_uno img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+h1{
+    text-align: center;
+    position: relative;
+    color: #fff;
+    font-size: 50px;
+    top: 40%;
+}
+
+
+
+.ola {
+    position: absolute;
+    width: 100%;
+    
+    z-index: 3;
+    bottom: 0;
+}
+
+
+
+/* primera info */
+.contenedor_grid p{
+    text-align: center;
+    text-align: justify;
+    padding-top: 20px;
+    line-height: 28px;
+}
+.contenedor_grid h2{
+    text-align: center;
+}
+
+.contenedor_grid h2 {
+    padding-top: 50px;
+}
+
+/* segunda info */
+.contenedor_parrafo_lavamanos{
+    padding-top: 50px;
+}
+/* imagen dos */
+.contenedor_grid .contenedor_img_dos{
+    width: 50%;
+    background-color: red;
+    height: 500px;
+    position: relative;
+    left: 30%;
+    top: 30px;
+}
+.contenedor_img_dos img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* terecera info */
+/* imagen tres */
+.contenedor_grid .contenedor_img_tres{
+    width: 90%;
+    height: 400px;
+    background-color: red;
+}
+.contenedor_img_tres img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* info */
+.contenedor_parrafo_distancia{
+    position: relative;
+    top: 50px;
+}
+
+
+/* contenedor sintomas */
+.contenedor .contenedor_sintomas{
+    width: 100%;
+    /* background-color: red; */
+}
+.contenedor_sintomas #titulo_sintomas{
+   text-align: center;
+}
+
+/* imagen sintomas */
+.contenedor_sintomas .sintomas{
+    width: 100%;
+    height: 350px;
+    
+}
+.sintomas img{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+/* sintomas texto */
+.sintomas_texto{
+    display: flex;
+    margin-left: 245px;
+}
+.sintomas_texto h2{
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+}
+.sintomas_texto #tos{
+    margin-left: -2%;
+    padding-right: 3%;
+}
+.sintomas_texto #dolor{
+    margin-right: 5%;
+    margin-left: 2%;
+}
+.sintomas_texto #fiebre{
+    margin-right: 7%;
+}
+.sintomas_texto #moco{
+    margin-right: 2%;
+
+}
+.sintomas_texto #garganta{
+    margin-left: 3%;
+    margin-right: 5%;
+}
+
+
+/* que es el covid */
+.contenedor_covid{
+    
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.contenedor_covid h2{
+    margin-bottom: 30px;
+    border: 2px solid #000;
+    display: inline-block;
+    padding: 10px;
+}
+.contenedor_covid .info_covid{
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+}
